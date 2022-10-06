@@ -31,6 +31,16 @@ export const navigation = [
     label: "Contact",
     url: "/contact",
   },
+  {
+    id: 7,
+    label: "Register",
+    url: "/register",
+  },
+  {
+    id: 8,
+    label: "Login",
+    url: "/login",
+  },
 ];
 export const footer = [
   {

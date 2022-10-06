@@ -111,7 +111,7 @@ const LeftButtons = () => {
         <IconButton
           aria-label='Pc'
           onClick={setNewAreaNext}
-          color={"gray.100"}
+          color={"gray.800"}
           icon={<MdArrowForwardIos />}
           variant={"ghost"}
         />
@@ -120,7 +120,7 @@ const LeftButtons = () => {
         <IconButton
           aria-label='Pc'
           onClick={setNewAreaPrevious}
-          color={"gray.100"}
+          color={"gray.800"}
           icon={<MdArrowBackIosNew />}
           variant={"ghost"}
         />
@@ -128,7 +128,7 @@ const LeftButtons = () => {
       <Tooltip hasArrow bg='gray.500' label='Döndürme'>
         <IconButton
           aria-label='Döndürme'
-          color={"gray.100"}
+          color={"gray.800"}
           onClick={setAutoRotateFunction}
           icon={<MdRotateRight />}
           variant={"ghost"}

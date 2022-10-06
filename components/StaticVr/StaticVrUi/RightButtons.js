@@ -93,7 +93,7 @@ const RightButtons = () => {
         <Tooltip hasArrow label='Tam Ekran'>
           <IconButton
             aria-label='Tam Ekran'
-            color={"gray.100"}
+            color={"gray.800"}
             onClick={toggleFullScrenn}
             icon={<MdFullscreen />}
             variant={"ghost"}
@@ -102,25 +102,17 @@ const RightButtons = () => {
         <Tooltip hasArrow bg='gray.500' label='Fotoğraf Çek'>
           <IconButton
             aria-label='Kamera'
-            color={"gray.100"}
+            color={"gray.800"}
             onClick={photoFunctionStatus ? togglePhotoFalse : togglePhotoTrue}
             icon={<MdCameraAlt />}
             variant={"ghost"}
           />
         </Tooltip>
-        <Tooltip hasArrow bg='gray.500' label='Plan'>
-          <IconButton
-            aria-label='Plan'
-            color={"gray.100"}
-            onClick={setModal}
-            icon={<GrMap />}
-            variant={"ghost"}
-          />
-        </Tooltip>
+
         <Tooltip hasArrow bg='gray.500' label='Lokasyon'>
           <IconButton
             aria-label={"Lokasyon"}
-            color={"gray.100"}
+            color={"gray.800"}
             onClick={setShowLocations}
             icon={<ImLocation2 />}
             variant={"ghost"}
@@ -141,7 +133,7 @@ const RightButtons = () => {
         <Tooltip hasArrow bg='gray.500' label='Yakınlaştır'>
           <IconButton
             aria-label='Yakınlaştır'
-            color={"gray.100"}
+            color={"gray.800"}
             onClick={setCameraZoomInFunction}
             icon={<MdZoomIn />}
             variant={"ghost"}
@@ -150,7 +142,7 @@ const RightButtons = () => {
         <Tooltip hasArrow bg='gray.500' label='Uzaklaştır'>
           <IconButton
             aria-label='Uzaklaştır'
-            color={"gray.100"}
+            color={"gray.800"}
             onClick={setCameraZoomOutFunction}
             icon={<MdZoomOut />}
             variant={"ghost"}

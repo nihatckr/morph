@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      " id": 1,
+      "name": "Koridor",
+      "color": "red",
+      " position": [30, 0, 40],
+      "url": "/ozak/a1.jpg",
+      "link": 1,
+      " detail": [
+        {
+          "id": 1,
+          "name": "Koridor",
+          "link": 1,
+          "position": [30, 0, 40]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Salon",
+      "position": [-30, 0, -45],
+      "url": " /ozak/a2.jpg",
+      "link": 0,
+      "detail": [
+        {
+          "id": 2,
+          "name": "Salon",
+          "link": 0,
+          "position": [-30, 0, -45]
+        },
+        {
+          "id": 3,
+          "name": "Holl",
+          "link": 2,
+          "position": [20, 0, 0]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Holl",
+      "color": "lightblue",
+      "position": [20, 0, 0],
+      "url": " /ozak/a3.jpg",
+      "link": 2,
+      "detail": [
+        {
+          "id": 1,
+          "name": "Koridor",
+          "link": 1,
+          "position": [-50, 0, 0]
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      " id": 1,
+      "image": "works-01.jpg",
+      "  title": "Ozak Gyo",
+      " subtitle": "Göktürk 2",
+      "href": "360/ozakgyo"
+    },
+    {
+      "id": 2,
+      "image": "works-01.jpg",
+      "title": "Ozak Gyo",
+      "subtitle": "Göktürk 2",
+      " href": "360/ozakgyo"
+    }
+  ],
+  "navigation": [
+    {
+      "id": 1,
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "label": "Vr Static 360",
+      "url": "/static-vr-360"
+    },
+    {
+      "id": 3,
+      " label": "Vr RealTime",
+      "url": "/vr-realtime"
+    },
+    {
+      "id": 5,
+      "label": "360",
+      " url": "/360"
+    },
+    {
+      " id": 6,
+      " label": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "id": 1,
+      "label": "Instagram",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "label": "Facebook",
+      "url": "/"
+    },
+    {
+      "id": 3,
+      "label": "Linkedin",
+      "url": "/"
+    },
+    {
+      "id": 4,
+      " label": "Twitter",
+      "url": "/"
+    },
+    {
+      "id": 5,
+      "label": "Behance",
+      "url": "/"
+    }
+  ]
+}
